@@ -1,0 +1,34 @@
+$clr-lexendDeca:'Lexend Deca', sans-serif;
+$clr-bigShoulders:'Big Shoulders Display', cursive;
+
+body{
+    font-size: 15px;
+    h2{
+        font-family:$clr-bigShoulders;
+        color:$clr-veryLightGrey;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 0.1rem;
+    }
+    p,a{
+        font-family: $clr-lexendDeca;
+    }
+    p{
+        color: $clr-transparentWhite;
+    }
+    a{
+        color:$clr-veryLightGrey;
+    }
+}
+
+footer{
+    .attribution {
+        font-family: $clr-lexendDeca;
+        font-size: 11px;
+        text-align: center; 
+    }
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+

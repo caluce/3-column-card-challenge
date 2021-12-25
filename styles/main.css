@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: inherit;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+h2, p, a {
+  display: block;
+}
+
+body {
+  font-size: 15px;
+}
+
+body h2 {
+  font-family: "Big Shoulders Display", cursive;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.1rem;
+}
+
+body p, body a {
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+body a {
+  color: #f2f2f2;
+}
+
+footer .attribution {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cards {
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 4em;
+  height: 30em;
+  max-width: 345px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.cards img, .cards h2, .cards p, .cards a {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  line-height: 1.5;
+}
+
+.cards .link {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.7em 2em;
+  border-radius: 6em;
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.cards__card1 {
+  background-color: #e38826;
+  margin-top: 4em;
+}
+
+.cards__card1 .link {
+  color: #e38826;
+}
+
+.cards__card1 .link:hover {
+  background-color: #e38826;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.cards__card2 {
+  background-color: #006970;
+}
+
+.cards__card2 .link {
+  color: #006970;
+}
+
+.cards__card2 .link:hover {
+  background-color: #006970;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.cards__card3 {
+  background-color: #004241;
+  margin-bottom: 4em;
+}
+
+.cards__card3 .link {
+  color: #004241;
+}
+
+.cards__card3 .link:hover {
+  background-color: #004241;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+footer {
+  margin-top: 3em;
+}
+
+@media (min-width: 750px) {
+  header {
+    margin-bottom: 6em;
+  }
+  .cards {
+    height: 35em;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .cards .link {
+    margin-top: 5em;
+  }
+  .cards__card1 {
+    margin-top: 0;
+  }
+  .cards__card3 {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
